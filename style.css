@@ -12,8 +12,31 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
+  /*
   user-drag: none;
+  */
 }
+
+.dropdown{
+    position : relative;
+    display : inline-block;
+}
+  
+.dropdown-content{
+    display : none;
+    position : absolute;
+    z-index : 1; /* upper than the others */
+}
+  
+.dropdown-content a{
+    display : block;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 
 #MainLogo {
     position: absolute;
