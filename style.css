@@ -1,9 +1,26 @@
-a {
-    position: relative;
-    width: 1440px;
-    height: 1234px;
-
+body {
     background: #F2F2F2;
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+#MainLogo {
+    position: absolute;
+    width: 306px;
+    height: 51px;
+    left: calc(50% - 306px/2);
+    top: 135px;
 }
 
 #NiceToMeetYou {
@@ -23,4 +40,12 @@ a {
     letter-spacing: -0.05em;
 
     color: #000000;
+}
+
+#Languages {
+    position: absolute;
+    width: 148px;
+    height: 121px;
+    left: 996px;
+    top: 144px;
 }
